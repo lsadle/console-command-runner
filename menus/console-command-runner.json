@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle console-command-runner",
+        "command": "console-command-runner:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "console-command-runner",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "console-command-runner:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
