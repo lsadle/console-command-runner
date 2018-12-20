@@ -2,25 +2,38 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle console-command-runner",
-        "command": "console-command-runner:toggle"
+        "label": "console-command-runner",
+        "submenu": [
+          {
+            "label": "Toggle",
+            "command": "console-command-runner:toggle"
+          },
+          {
+            "label": "Run Command",
+            "command": "console-command-runner:run"
+          }
+        ]
       }
     ]
   },
   "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "console-command-runner",
-          "submenu": [
-            {
-              "label": "Toggle",
-              "command": "console-command-runner:toggle"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  {
+    "label": "Packages",
+    "submenu": [
+      {
+        "label": "console-command-runner",
+        "submenu": [
+          {
+            "label": "Toggle",
+            "command": "console-command-runner:toggle"
+          },
+          {
+            "label": "Run Command",
+            "command": "console-command-runner:run"
+          }
+        ]
+      }
+    ]
+  }
+]
 }

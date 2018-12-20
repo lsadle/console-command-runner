@@ -1,13 +1,13 @@
 {
-  "name": "Console Command Runner",
+  "name": "console-command-runner",
   "main": "./lib/console-command-runner",
   "version": "1.0.0",
-  "description": "(WINDOWS ONLY) Runs the specified command from the Settings in a new independant Command Prompt window",
+  "description": "(WINDOWS ONLY) Runs the specified command from the Settings in a new independent Command Prompt window",
   "keywords": [
-    'console','command','terminal'
+    "console","command","terminal"
   ],
   "activationCommands": {
-    "atom-workspace": "console-command-runner:run"
+    "atom-workspace": ["console-command-runner:run", "console-command-runner:toggle"]
   },
   "repository": "https://github.com/atom/console-command-runner",
   "license": "MIT",
