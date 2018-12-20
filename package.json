@@ -9,7 +9,7 @@
   "activationCommands": {
     "atom-workspace": ["console-command-runner:run", "console-command-runner:toggle"]
   },
-  "repository": "https://github.com/atom/console-command-runner",
+  "repository": "https://github.com/lsadle/console-command-runner",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
